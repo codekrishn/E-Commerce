@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
-  --main-bg-color: rgb(0, 173, 165);
+  --main-bg-color: #06f;
 }
 
 * {
@@ -20,6 +20,7 @@ header {
 }
 
 nav {
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,16 +28,24 @@ nav {
 
 .logo {
     display: flex;
-    padding: 0 23px;
+    cursor: pointer;
+    padding: 3px 3px 1px 3px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.logo:hover {
+    border: 3px solid white;
 }
 
 .logo img {
-    height: 37px;
+    height: 23px;
 }
 
 .search {
     display: flex;
-    margin: 0 12vw 0 14vw;
+    justify-content: right;
+    margin: 0 0 0 50vw;
 }
 
 .search input {
@@ -47,7 +56,7 @@ nav {
     margin: 0 10px 0 0;
 }
 
-nav ul {
+/* nav ul {
     height: 9vh;
     display: flex;
     justify-content: right;
@@ -62,7 +71,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-}
+} */
 
 .container {
     min-height: calc(100vh - 9vh - 9vh);
@@ -76,9 +85,41 @@ nav ul li a {
 
 .slider img {
     width: 80vw;
-    height: 28vh;
+    height: 32vh;
     border-radius: 12px;
     object-fit: cover;
+}
+
+.filter-tabs {
+    display: flex;
+    margin: 32px 3vw;
+    gap: 1rem;
+}
+
+.tab {
+    padding: 5px 14px;
+    border: 1px solid var(--main-bg-color);
+    background: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.tab.active,
+.tab:hover{
+    background: var(--main-bg-color);
+    color: white;
+    border-color: #ffee00;
+}
+
+.tab a {
+    text-decoration: none;
+    color: #666;
+}
+
+.tab a:hover {
+    color: white;
 }
 
 .card{
@@ -90,6 +131,7 @@ nav ul li a {
 .cards{
     display: flex;
     overflow: auto;
+    scrollbar-width: none;
 }
 
 .card-item{
@@ -102,10 +144,28 @@ nav ul li a {
 .card-item img{
     border-radius: 12px;
     object-fit: cover;
+    width: 160px;
+    height: 180px;
 }
 
 .card h2{
     font-family: "Lora", serif;
+}
+
+.text-grab{
+    background-color: var(--main-bg-color);
+    color: white;
+    padding: 2px 0;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text-grab:hover {
+    background-color: #ffffff;
+    border: 2px solid var(--main-bg-color);
+    color: var(--main-bg-color);
+    font-weight: 500;
 }
 
 footer {

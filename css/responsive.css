@@ -1,0 +1,43 @@
+@media screen and (max-width: 871px) {
+    .search {
+        margin: 0 0 0 37vw;
+    }
+
+    .slider img {
+    height: 23vh;
+    }
+    
+}
+
+@media screen and (max-width: 671px) {
+    .search {
+        margin: 0 0 0 28vw;
+    }
+
+    .slider img {
+    height: 21vh;
+    }
+    
+}
+
+@media screen and (max-width: 471px) {
+    .search {
+        margin: 0 0 0 18vw;
+    }
+
+    .slider img {
+    height: 19vh;
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+    .search {
+        margin: 0 0 0 7vw;
+    }
+
+    .slider img {
+    height: 19vh;
+    }
+    
+}
