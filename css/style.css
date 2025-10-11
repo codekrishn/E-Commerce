@@ -77,17 +77,52 @@ nav ul li a {
     min-height: calc(100vh - 9vh - 9vh);
 }
 
+.slider-wrapper{
+    position: relative;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
 .slider {
-    margin: 14px 0 14px 0;
     display: flex;
-    justify-content: center;
+    margin: 14px 0 14px 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    border-radius: 12px 12px 16px 16px;
 }
 
 .slider img {
-    width: 80vw;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    width: 82.5vw;
     height: 32vh;
-    border-radius: 12px;
     object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+    background-color: black;
 }
 
 .filter-tabs {

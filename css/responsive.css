@@ -3,10 +3,14 @@
         margin: 0 0 0 37vw;
     }
 
-    .slider img {
-    height: 23vh;
+    .slider {
+        margin: 3vh 5vw;
     }
-    
+
+    .slider img {
+        height: 27vh;
+    }
+
 }
 
 @media screen and (max-width: 671px) {
@@ -15,20 +19,42 @@
     }
 
     .slider img {
-    height: 21vh;
+        height: 25vh;
     }
-    
+
 }
 
-@media screen and (max-width: 471px) {
+@media screen and (max-width: 500px) {
     .search {
         margin: 0 0 0 18vw;
     }
 
     .slider img {
-    height: 19vh;
+        height: 23vh;
     }
-    
+
+}
+
+@media screen and (max-width: 450px) {
+    .search {
+        margin: 0 0 0 18vw;
+    }
+
+    .slider img {
+        height: 23vh;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .search {
+        margin: 0 0 0 18vw;
+    }
+
+    .slider img {
+        height: 23vh;
+    }
+
 }
 
 @media screen and (max-width: 390px) {
@@ -37,7 +63,7 @@
     }
 
     .slider img {
-    height: 19vh;
+        height: 23vh;
     }
-    
+
 }
