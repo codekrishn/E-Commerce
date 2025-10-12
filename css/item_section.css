@@ -164,21 +164,15 @@ nav ul li a {
 
 .card{
     max-width: 90vw;
-    margin: 32px auto;
+    margin: 32px 70px 0 323px;
     font-family: "Lora", serif;
-}
-
-.cards{
-    display: flex;
-    overflow: auto;
-    scrollbar-width: none;
 }
 
 .card-item{
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 12px;
+    margin: 0 12px 37px 0;
 }
 
 .card-item img{
@@ -194,9 +188,10 @@ nav ul li a {
 
 .text-center{
     width: 154px;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .text-grab{

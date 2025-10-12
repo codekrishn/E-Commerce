@@ -55,9 +55,16 @@ hr::after {
 
 .text-center{
     text-align: left;
-    margin: 5px 5px;
+    margin: 5px 9px;
 }
 
 .text-grab{
     margin: 5px 19px;
 }
+
+/* .text-center{
+    width: 154px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
