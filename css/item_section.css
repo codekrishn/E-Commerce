@@ -48,15 +48,31 @@ nav {
 .search {
     display: flex;
     justify-content: right;
-    margin: 0 0 0 50vw;
+    margin: 0 0 0 55vw;
 }
 
 .search input {
-    width: 23vw;
+    min-width: 23vw;
     padding: 5px 0.5vw;
-    border-radius: 12px;
+    border-radius: 13px;
     border: 1px solid black;
     margin: 0 10px 0 0;
+}
+
+.btn{
+    position: absolute;
+    padding: 5px 0.68vw;
+    margin: 1px 11px 0 0;
+    border: none;
+    border-radius: 1px 12px 12px 1px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
 
 /* nav ul {

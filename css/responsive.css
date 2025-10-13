@@ -1,8 +1,4 @@
 @media screen and (max-width: 871px) {
-    .search {
-        margin: 0 0 0 37vw;
-    }
-
     .slider {
         margin: 3vh 5vw;
     }
@@ -23,7 +19,7 @@
 
 @media screen and (max-width: 671px) {
     .search {
-        margin: 0 0 0 28vw;
+        margin: 0 0 0 150px;
     }
 
     .slider img {
@@ -42,7 +38,7 @@
 
 @media screen and (max-width: 500px) {
     .search {
-        margin: 0 0 0 18vw;
+        margin: 0 0 0 110px;
     }
 
     .slider img {
@@ -66,7 +62,11 @@
 
 @media screen and (max-width: 450px) {
     .search {
-        margin: 0 0 0 18vw;
+        margin: 0 0 0 80px;
+    }
+
+    .logo img {
+        height: 16px;
     }
 
     .slider img {
@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 400px) {
     .search {
-        margin: 0 0 0 18vw;
+        margin: 0 0 0 70px;
     }
 
     .social-icons img {
@@ -109,10 +109,6 @@
 }
 
 @media screen and (max-width: 390px) {
-    .search {
-        margin: 0 0 0 7vw;
-    }
-
     .slider img {
         height: 23vh;
     }
