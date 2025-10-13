@@ -213,10 +213,7 @@ nav ul li a {
 }
 
 .card{
-    /* display: flex;
-    flex-wrap: wrap; */
-    max-width: 90vw;
-    margin: -590px 70px 0 337px;
+    margin: -95vh 3vw 0 350px;
     font-family: "Lora", serif;
 }
 
@@ -238,8 +235,14 @@ nav ul li a {
     font-family: "Lora", serif;
 }
 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .text-center{
-    width: 150px;
+    width: 10.42vw;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
