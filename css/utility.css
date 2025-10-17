@@ -4,6 +4,14 @@
     align-items: center;
 }
 
+.cart{
+    margin: 0 3vw;
+}
+
+.cart img{
+    width: 37px;
+}
+
 hr {
   border: none;
   border-top: 3px double #333333;

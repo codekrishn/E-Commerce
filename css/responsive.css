@@ -18,10 +18,6 @@
 }
 
 @media screen and (max-width: 671px) {
-    .search {
-        margin: 0 0 0 150px;
-    }
-
     .slider img {
         height: 25vh;
     }
@@ -37,10 +33,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .search {
-        margin: 0 0 0 110px;
-    }
-
     .slider img {
         height: 23vh;
     }
@@ -61,10 +53,6 @@
 }
 
 @media screen and (max-width: 450px) {
-    .search {
-        margin: 0 0 0 80px;
-    }
-
     .logo img {
         height: 16px;
     }
@@ -89,10 +77,6 @@
 }
 
 @media screen and (max-width: 400px) {
-    .search {
-        margin: 0 0 0 70px;
-    }
-
     .social-icons img {
         height: 3vh;
         margin: 0.1vh 3.5vw;
