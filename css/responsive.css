@@ -1,12 +1,4 @@
 @media screen and (max-width: 871px) {
-    .slider {
-        margin: 3vh 5vw;
-    }
-
-    .slider img {
-        height: 27vh;
-    }
-
     .details h2 {
         margin: 2vw 0 0.5vw 9vw;
     }
@@ -18,10 +10,6 @@
 }
 
 @media screen and (max-width: 671px) {
-    .slider img {
-        height: 25vh;
-    }
-
     .details h2 {
         margin: 2vw 0 0.5vw 9vw;
     }
@@ -33,10 +21,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .slider img {
-        height: 23vh;
-    }
-
     .social-icons img {
         height: 3vh;
         margin: 0.1vh 3.5vw;
@@ -55,10 +39,6 @@
 @media screen and (max-width: 450px) {
     .logo img {
         height: 16px;
-    }
-
-    .slider img {
-        height: 23vh;
     }
 
     .social-icons img {
@@ -93,10 +73,6 @@
 }
 
 @media screen and (max-width: 390px) {
-    .slider img {
-        height: 23vh;
-    }
-
     .social-icons img {
         height: 3vh;
         margin: 0.1vh 3.5vw;

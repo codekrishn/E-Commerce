@@ -1,55 +1,63 @@
 @media screen and (max-width: 1920px) {
     .search {
-        margin: 0 0 0 290px;
+        margin: 0 50px 0 55.58vw;
+    }
+
+    .cart {
+        margin: 0 -10px 0 0;
     }
 
 }
 
 @media screen and (max-width: 1670px) {
     .search {
-        margin: 0 0 0 250px;
+        margin: 0 50px 0 47.58vw;
+    }
+
+    .cart {
+        margin: 0 -1px 0 0;
     }
 
 }
 
 @media screen and (max-width: 1280px) {
     .search {
-        margin: 0 0 0 250px;
+        margin: 0 50px 0 45.58vw;
     }
 
 }
 
 @media screen and (max-width: 1080px) {
     .search {
-        margin: 0 0 0 250px;
+        margin: 0 50px 0 40.19vw;
     }
 
 }
 
 @media screen and (max-width: 860px) {
     .search {
-        margin: 0 0 0 250px;
+        margin: 0 50px 0 37.19vw;
     }
 
 }
 
 @media screen and (max-width: 768px) {
     .search {
-        margin: 0 0 0 250px;
+        margin: 0 50px 0 32.19vw;
     }
 
 }
 
 @media screen and (max-width: 680px) {
     .search {
-        margin: 0 0 0 100px;
+        margin: 0 50px 0 27.19vw;
     }
 
 }
 
 @media screen and (max-width: 601px) {
     .search {
-        margin: 0 10px 0 100px;
+        margin: 0 30px 0 23.19vw;
     }
 
 }
