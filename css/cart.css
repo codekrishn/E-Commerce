@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --main-bg-color: #06f;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: "Lora", serif;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+    padding: 3px 3px 1px 3px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.logo:hover {
+    border: 3px solid white;
+}
+
+.logo img {
+    height: 23px;
+}
+
+.search {
+    display: flex;
+    justify-content: right;
+    margin: 0 0 0 55vw;
+}
+
+.search input {
+    min-width: 23vw;
+    padding: 5px 0.5vw;
+    border-radius: 13px;
+    border: 1px solid black;
+    margin: 0 10px 0 0;
+}
+
+.btn {
+    position: absolute;
+    padding: 5px 0.68vw;
+    margin: 1px 11px 0 0;
+    border: none;
+    border-radius: 1px 12px 12px 1px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+/* nav ul {
+    height: 9vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 1.5vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+} */
+
+.container {
+    min-height: calc(100vh - 47vh);
+}
+
+.all-summary {
+    display: flex;
+}
+
+.all {
+    margin: 30px
+}
+
+.one-item {
+    display: flex;
+    /* background-color: rgb(183, 255, 231); */
+    margin: 0 0 30px 0;
+}
+
+.checkbox {
+    display: flex;
+    margin: 0 23px 0 10px;
+    align-items: center;
+}
+
+.custom-checkbox {
+    appearance: none;
+    width: 23px;
+    height: 23px;
+    border: 2px solid #8b8b8b;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox:hover {
+    border: 2px solid #00ff08;
+}
+
+.custom-checkbox:checked {
+    background-color: #00ff08;
+    border: 2px solid #00ff08;
+}
+
+.custom-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 6.5px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.img img {
+    margin: 0px 14px;
+    width: 190px;
+    height: 190px;
+}
+
+.cart-details {
+    padding: 0 0px 0 19px;
+    line-height: 21px;
+}
+
+.cart-details h2 {
+    font-size: 21px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.stock {
+    color: #00b306;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.shipping {
+    font-size: 14px;
+    color: #555555;
+}
+
+.gift {
+    font-size: 14px;
+}
+
+.gift a {
+    text-decoration: none;
+}
+
+.size-color {
+    margin: 5px 0;
+}
+
+.quantity {
+    display: flex;
+}
+
+.button {
+    padding: 3px 10px;
+    margin: 0 9px 0 0;
+    border: 2px solid rgb(255, 255, 0);
+    border-radius: 19px;
+}
+
+.button button {
+    font-size: 19px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button button:hover {
+    transform: scale(1.2);
+}
+
+.button span {
+    padding: 0 14px;
+}
+
+.button img {
+    width: 12px;
+}
+
+.quantity a {
+    margin: 0 3.5px;
+    text-decoration: none;
+}
+
+.price-section {
+    margin: 0 10px 0 30px;
+    line-height: 21px;
+}
+
+.price-line {
+    display: flex;
+}
+
+.discount {
+    margin: 5px 5px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #be005f;
+}
+
+.price {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.mrp {
+    color: #afafaf;
+}
+
+.mrp span {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(143, 143, 143);
+}
+
+.coupon {
+    display: flex;
+}
+
+.coupon button {
+    padding: 0px 10px;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #ffee00;
+}
+
+.offer {
+    margin: 10px 0;
+}
+
+.offer span {
+    margin: 5px 0;
+    padding: 3px 5px;
+    background-color: #00ff08;
+    border-radius: 2px;
+}
+
+.hr {
+    margin: 0;
+}
+
+/* Ordeer Summary */
+
+/* .vertical {
+    position: relative;
+    border-left: 2px solid black;
+    height: 80vh;
+    margin: 10px 0 0 0;
+} */
+
+.order-summary {
+    position: sticky;
+    top: 23vh;
+    margin: 64px 30px;
+    padding: 25px 30px;
+    background: #e4e4e4;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 270px;
+}
+
+.order-summary h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.total {
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.checkout-btn {
+    width: 100%;
+    background-color: #00944f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 0;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #145a32;
+}
+
+/* Footer */
+
+footer {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.to-details {
+    background-color: rgb(0, 70, 175);
+    width: 100%;
+    height: 37vh;
+    text-align: center;
+}
+
+.flex-all-center h2 {
+    color: rgb(194, 194, 194);
+    font-family: "Lora", serif;
+    text-decoration: underline;
+}
+
+.social-icons img {
+    height: 30px;
+    margin: 0.1vh 2vw;
+    cursor: pointer;
+}
+
+.details h2 {
+    color: white;
+    font-family: "Lora", serif;
+    text-decoration: none;
+    margin: 2vw 0 0.5vw 14vw;
+    text-align: start;
+}
+
+.details p {
+    color: rgb(184, 184, 184);
+    font-family: "Lora", serif;
+    font-size: 16px;
+    margin: 0 14vw;
+    text-align: start;
+}
+
+.copyright {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 56, 141);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lora", serif;
+}
