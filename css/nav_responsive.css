@@ -89,6 +89,10 @@
         margin: 0 -1px 0 0;
     }
 
+    .logo img {
+    height: 19px;
+}
+
 }
 
 @media screen and (max-width: 390px) {

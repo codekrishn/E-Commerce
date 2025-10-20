@@ -232,8 +232,13 @@ nav ul li a {
 }
 
 .quantity a {
-    margin: 5px 3.5px;
+    margin: 5px 1vw;
+    padding: 4px 5px;
+    font-size: 12px;
     text-decoration: none;
+    background-color: #d3d3d3;
+    border: 1px solid black;
+    border-radius: 14px;
 }
 
 .price-section {
