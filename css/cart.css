@@ -155,7 +155,6 @@ nav ul li a {
 
 .cart-details {
     padding: 0 0px 0 19px;
-    line-height: 1.3;
 }
 
 .cart-details h2 {
@@ -168,6 +167,7 @@ nav ul li a {
 }
 
 .stock {
+    margin: 5px 0;
     color: #00b306;
     animation: blink 1s infinite;
 }
@@ -194,6 +194,7 @@ nav ul li a {
 }
 
 .gift a {
+    color: #06f;
     text-decoration: none;
 }
 
@@ -236,14 +237,14 @@ nav ul li a {
     padding: 4px 5px;
     font-size: 12px;
     text-decoration: none;
-    background-color: #d3d3d3;
+    color: #06f;
     border: 1px solid black;
     border-radius: 14px;
 }
 
 .price-section {
     margin: 0 10px 0 30px;
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 .price-line {
@@ -251,7 +252,7 @@ nav ul li a {
 }
 
 .discount {
-    margin: 5px 0 0 0;
+    margin: 5px;
     padding: 3px;
     border-radius: 5px;
     font-weight: 600;
@@ -266,7 +267,7 @@ nav ul li a {
 }
 
 .mrp {
-    color: #afafaf;
+    color: #979797;
 }
 
 .mrp span {
@@ -280,8 +281,8 @@ nav ul li a {
 }
 
 .coupon button {
-    padding: 0px 10px;
-    margin: 5px;
+    padding: 3px 10px;
+    margin: 0 0 0 5px;
     font-size: 12px;
     font-weight: 600;
     border: 1px solid #000;
