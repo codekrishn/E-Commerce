@@ -192,7 +192,7 @@
     .logo img {
         height: 16px;
     }
-    
+
     .product-img img {
         width: 21.5rem;
         height: 25rem;
@@ -249,6 +249,10 @@
 
     .text-center {
         width: 134px;
+    }
+
+    .to-details {
+        height: 41vh;
     }
 
 }
