@@ -184,6 +184,22 @@ nav ul li a {
     font-family: "Lora", serif;
 }
 
+.item-tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-all{
+    color: #000;
+    text-decoration: none;
+}
+
+.view-all:hover{
+    color: #06f;
+    font-weight: 500;
+}
+
 .cards{
     display: flex;
     overflow: auto;
