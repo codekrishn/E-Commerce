@@ -54,7 +54,7 @@ nav {
 .search input {
     min-width: 23vw;
     padding: 5px 0.5vw;
-    border-radius: 13px;
+    border-radius: 5px;
     border: 1px solid black;
     margin: 0 10px 0 0;
 }
@@ -64,7 +64,7 @@ nav {
     padding: 5px 0.68vw;
     margin: 1px 11px 0 0;
     border: none;
-    border-radius: 1px 12px 12px 1px;
+    border-radius: 1px 3px 3px 1px;
     background-color: rgba(255, 0, 0, 0);
     cursor: pointer;
 }
@@ -151,6 +151,8 @@ nav ul li a {
     margin: 0px 14px;
     width: 190px;
     height: 190px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .cart-details {

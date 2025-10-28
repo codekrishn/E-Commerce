@@ -23,6 +23,14 @@
     }
 }
 
+.menu {
+    margin: 0 1vw;
+}
+
+.menu img {
+    width: 37px;
+}
+
 hr {
     border: none;
     border-top: 3px double #333333;
@@ -71,10 +79,3 @@ hr::after {
 .text-grab {
     margin: 5px 19px;
 }
-
-/* .text-center{
-    width: 154px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-} */

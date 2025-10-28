@@ -1,6 +1,6 @@
 @media screen and (max-width: 1920px) {
     .search {
-        margin: 0 50px 0 55.58vw;
+        margin: 0 27vw;
     }
 
     .cart {
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1670px) {
     .search {
-        margin: 0 50px 0 47.58vw;
+        margin: 0 26vw;
     }
 
     .cart {
@@ -22,67 +22,75 @@
 
 @media screen and (max-width: 1280px) {
     .search {
-        margin: 0 50px 0 45.58vw;
+        margin: 0 25vw;
     }
 
 }
 
 @media screen and (max-width: 1080px) {
     .search {
-        margin: 0 50px 0 40.19vw;
+        margin: 0 23vw;
     }
 
 }
 
 @media screen and (max-width: 860px) {
     .search {
-        margin: 0 50px 0 37.19vw;
+        margin: 0 19vw;
     }
 
 }
 
 @media screen and (max-width: 768px) {
     .search {
-        margin: 0 50px 0 32.19vw;
+        margin: 0 19vw;
     }
 
 }
 
 @media screen and (max-width: 680px) {
     .search {
-        margin: 0 50px 0 27.19vw;
+        margin: 0 16vw;
     }
 
 }
 
 @media screen and (max-width: 601px) {
     .search {
-        margin: 0 30px 0 23.19vw;
+        margin: 0 12vw;
     }
 
 }
 
 @media screen and (max-width: 500px) {
     .search {
-        margin: 0 10px 0 70px;
+        margin: 0 35px;
     }
 
 }
 
 @media screen and (max-width: 450px) {
     .search {
-        margin: 0 10px 0 64px;
+        margin: 0 30px;
     }
 
     .cart {
         margin: 0 -1px 0 0;
     }
 
+    .cart img {
+    width: 32px;
+    }
+
+    .menu img {
+        width: 32px;
+    }
+
 }
 
 @media screen and (max-width: 419px) {
     .search {
-        margin: 0 10px 0 64px;
+        margin: 0 14px 0 21px;
     }
 
     .cart {
@@ -90,14 +98,14 @@
     }
 
     .logo img {
-    height: 19px;
-}
+        height: 18px;
+    }
 
 }
 
 @media screen and (max-width: 390px) {
     .search {
-        margin: 0 10px 0 37px;
+        margin: 0 10px 0 10px;
     }
 
     .cart {
@@ -108,20 +116,20 @@
 
 @media screen and (max-width: 375px) {
     .search {
-        margin: 0 10px 0 37px;
+        margin: 0 10px 0 5px;
     }
 
     .cart {
         margin: 0;
     }
 
+    .logo img {
+        height: 14px;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
-    .search {
-        margin: 0 10px 0 23px;
-    }
-
     .cart {
         margin: 0 -5px 0 0;
     }

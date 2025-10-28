@@ -54,7 +54,7 @@ nav {
 .search input {
     min-width: 23vw;
     padding: 5px 0.5vw;
-    border-radius: 13px;
+    border-radius: 5px;
     border: 1px solid black;
     margin: 0 10px 0 0;
 }
@@ -64,7 +64,7 @@ nav {
     padding: 5px 0.68vw;
     margin: 1px 11px 0 0;
     border: none;
-    border-radius: 1px 12px 12px 1px;
+    border-radius: 1px 3px 3px 1px;
     background-color: rgba(255, 0, 0, 0);
     cursor: pointer;
 }
@@ -113,6 +113,11 @@ nav ul li a {
     gap: 37px;
 }
 
+.stoping{
+    position: sticky;
+    top: 14vh;
+}
+
 .product-img img {
     width: 28rem;
     height: 32rem;
@@ -123,6 +128,8 @@ nav ul li a {
 .button {
     display: flex;
     gap: 19px;
+    justify-content: center;
+    margin: 23px 0;
 }
 
 .button button {
