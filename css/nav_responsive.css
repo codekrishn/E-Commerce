@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1670px) {
     .search {
-        margin: 0 26vw;
+        margin: 0 19vw;
     }
 
     .cart {
@@ -22,42 +22,35 @@
 
 @media screen and (max-width: 1280px) {
     .search {
-        margin: 0 25vw;
+        margin: 0 18vw;
     }
 
 }
 
 @media screen and (max-width: 1080px) {
     .search {
-        margin: 0 23vw;
+        margin: 0 16vw;
     }
 
 }
 
 @media screen and (max-width: 860px) {
     .search {
-        margin: 0 19vw;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    .search {
-        margin: 0 19vw;
+        margin: 0 14vw;
     }
 
 }
 
 @media screen and (max-width: 680px) {
     .search {
-        margin: 0 16vw;
+        margin: 0 12vw;
     }
 
 }
 
 @media screen and (max-width: 601px) {
     .search {
-        margin: 0 12vw;
+        margin: 0 10vw;
     }
 
 }
